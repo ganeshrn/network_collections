@@ -17,9 +17,6 @@ plugin_routing:
   cliconf:
     eos:
       redirect: arista.eos.eos
-  lookup:
-    myfile:
-      redirect: arista.eos.myfile
   modules:
     eos_new_command:
       redirect: arista.eos.eos_new_command
