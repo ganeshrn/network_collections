@@ -37,7 +37,7 @@ cd network_collections
 4) Run test (failing)
 
 ```
-ansible-playbook redirect_test.yml -vvvvv
+ansible-playbook redirect_test_failing.yml -vvvvv
 ```
 
 5) Run test (working)
