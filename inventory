@@ -1,0 +1,2 @@
+[eos]
+eos01 ansible_host=<> ansible_user=<> ansible_ssh_pass=<> ansible_network_os=eos

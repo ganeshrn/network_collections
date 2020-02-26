@@ -1,0 +1,6 @@
+plugin_routing:
+  action:
+    eos_acl_interfaces:
+      redirect: arista.eos.eos
+    eos_new_command:
+      redirect: arista.eos.eos

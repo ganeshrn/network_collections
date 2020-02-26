@@ -1,0 +1,9 @@
+---
+- hosts: eos
+  gather_facts: no
+  connection: network_cli
+  tasks:
+  - name: "run command"
+    eos_new_command:
+      commands:
+        - show version
