@@ -25,22 +25,29 @@ plugin_routing:
 ```
 
 
-2) Clone the repository
+2) Install paramiko
+
+```
+pip3 install paramiko
+```
+
+
+3) Clone the repository
 
 ```
 git clone https://github.com/ganeshrn/network_collections.git
 cd network_collections
 ```
 
-3) Update inventory file
+4) Update inventory file
 
-4) Run test (failing)
+5) Run test (failing)
 
 ```
 ansible-playbook redirect_test_failing.yml -vvvvv
 ```
 
-5) Run test (working)
+6) Run test (working)
 
 ```
 ansible-playbook redirect_test_working.yml -vvvvv
