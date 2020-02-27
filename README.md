@@ -2,7 +2,7 @@
 Network collections redirection
 
 Steps to test:
-1) Update routing.yml in `lib/ansible/config/rotuing.yml`
+1) (optional) Update routing.yml in `lib/ansible/config/rotuing.yml` (only to test redirection in ansible core)
 
 ```
 plugin_routing:
