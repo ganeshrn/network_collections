@@ -1,10 +1,10 @@
 ---
 - hosts: eos
   gather_facts: no
-  connection: network_cli
+  connection: ansible.netcommon.network_cli
   tasks:
   - name: "Merge module attributes of given access-groups"
-    eos_acl_interfaces:
+    arista.eos.eos_acl_interfaces:
       config:
         - name: Ethernet2
           access_groups:
